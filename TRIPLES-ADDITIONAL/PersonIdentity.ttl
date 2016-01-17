@@ -1,0 +1,391 @@
+#This dataset has still to be completed.
+
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix saws: <http://purl.org/saws/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix noto: <http://purl.org/net/noto/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@base <http://www.bufaliniquaderno.it/resource/> . 
+
+<person/TM> ecrm:P84_has_preferred_identifier "Mann, Thomas (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/LM> ecrm:P84_has_preferred_identifier "Livio M." .
+
+<person/QOF> ecrm:P84_has_preferred_identifier "Horatius Flaccus, Quintus (65-8 a.C.)" ;
+      owl:sameAs <http://viaf.org/viaf/100227522> .
+
+<person/AM> ecrm:P84_has_preferred_identifier "Manzoni, Alessandro (1785-1873)" ;
+      owl:sameAs <http://viaf.org/viaf/14356> .
+
+<person/FH> ecrm:P84_has_preferred_identifier "Hegel, Georg Wilhelm Friedrich (1770-1831)" ;
+      owl:sameAs <http://viaf.org/viaf/89774942> .
+
+<person/KM> ecrm:P84_has_preferred_identifier "Marx, Karl (1818-1883)" ;
+      owl:sameAs <http://viaf.org/viaf/49228757> .
+
+<person/GCRI> ecrm:P84_has_preferred_identifier "Jesus Christ (4 a.C.-29 d.C.)" ;
+      owl:sameAs <http://viaf.org/viaf/38323081> .
+
+<person/TLC> ecrm:P84_has_preferred_identifier "Lucretius Carus, Titus (97-55 a.C.)" ;
+      owl:sameAs <http://viaf.org/viaf/106388020> .
+
+<person/DA> ecrm:P84_has_preferred_identifier "Alighieri Dante (1265-1321)" ;
+      owl:sameAs <http://viaf.org/viaf/97105654> .
+
+<person/WS> ecrm:P84_has_preferred_identifier "Shakespeare, William (1564-1616)" ;
+      owl:sameAs <http://viaf.org/viaf/96994048> .
+
+<person/LP> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/EB> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GM> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/PVM> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/DGG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/QE> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GN> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GA> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/SA> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/LAS> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/FP> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/HM> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MTC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MA> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GF> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MY> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/OA> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/QTC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/LMARR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/RW> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/FN> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/AR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/AS> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GL> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/STEND> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GGB> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/RF> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/EFN> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/SF> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/ZAR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/SOCR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/DION> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GS> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/TC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/CS> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/RCO> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/PB> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/BA> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GPC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GV> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/BC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/CT> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/TIB> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/CG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MFQ> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GST> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MVM> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MEMM> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/NERO> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/ISEO> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/FID> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/CARM> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GCER> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MVM_E> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/PG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/ADT> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GMAUP> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/STEN> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/TD> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GP> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/AT> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/PILAT> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/SR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GMCC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/JS> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GML> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/TT> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GB> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/RG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GBRIG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/EG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/FDS> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/AL> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/NM> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/ADA> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/VA> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/NT> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/JWG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/AMAR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/PP> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/LT> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GCR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/RMR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/FMANN> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/HH> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/AD> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/ASH> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/IUSTIN> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/PBONF_IDR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/IUST> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/SSG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MSO> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/AVG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/TFSV> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/TFV> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/TFD> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MCN> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MUNT> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GVIG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/AF> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/EH> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GGC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GMAR> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/LCS> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MANT> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GO> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GMIN> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MGB> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/MG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/FPASS> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GG> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/GVC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+
+<person/DC> ecrm:P84_has_preferred_identifier "Name (Dates)" ;
+      owl:sameAs <VIAF> .
+

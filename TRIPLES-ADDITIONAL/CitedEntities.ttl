@@ -1,0 +1,3155 @@
+#This dataset has still to be completed.
+
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix saws: <http://purl.org/saws/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix noto: <http://purl.org/net/noto/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@base <http://www.bufaliniquaderno.it/resource/> . 
+
+###### Unknown author and title #######
+
+<cited-entity-001> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/001> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/001> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<pbn/expression/001> efrbroo:R3i_realises <pbn/work/001> .
+
+<pbn/work/001> a efrbroo:F1_Work .
+
+############
+
+<cited-entity-002> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/002/QOF/carmina/2/14/17-18#errans> ;
+      rdfs:seeAlso <http://data.perseus.org/citations/urn:cts:latinLit:phi0893.phi001.perseus-lat1:2.14.17-2.14.18@errans> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/002/QOF/carmina> ;
+      dcterms:title "carm. 2, 14, 17 sg.";
+      dc:creator <person/QOF> .
+
+<pbn/expression/002/QOF/carmina> ecrm:R3i_realises <pbn/work/002/QOF/carmina> .
+
+<pbn/work/002/QOF/carmina> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <http://data.perseus.org/texts/urn:cts:latinLit:phi0893.phi001> .
+
+<http://data.perseus.org/citations/urn:cts:latinLit:phi0893.phi001.perseus-lat1:2.14.17-2.14.18@errans> a efrbroo:F23_Expression_Fragment ;
+      efrbroo:R15i_is_fragment_of <http://data.perseus.org/texts/urn:cts:latinLit:phi0893.phi001.perseus-lat1> ;
+      efrbroo:R3_is_realised_in <http://data.perseus.org/texts/urn:cts:latinLit:phi0893.phi001> .
+
+############
+
+<cited-entity-003> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/003/AM/inni-sacri/pentecoste/1-37> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/003/AM/inni-sacri/pentecoste> ; ;
+      dcterms:title "Inni sacri, La Pentecoste";
+      dc:creator <person/AM> .
+
+<pbn/expression/003/AM/inni-sacri/pentecoste> ecrm:R3i_realises <pbn/work/003/AM/inni-sacri/pentecoste> .
+
+<pbn/work/003/AM/inni-sacri/pentecoste> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <https://archive.org/stream/lacomposizionede00buseuoft/#page/n5/mode/2up> .
+
+###### Cited entity 004 logically follows cited entity 003 ###### 
+
+<cited-entity-004> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/004/AM/inni-sacri/pentecoste/38-48> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/003/AM/inni-sacri/pentecoste> ; ;
+      dcterms:title "Inni sacri, La Pentecoste";
+      dc:creator <person/AM> .
+
+<pbn/expression/003/AM/inni-sacri/pentecoste> ecrm:R3i_realises <pbn/work/003/AM/inni-sacri/pentecoste> .
+
+<pbn/work/003/AM/inni-sacri/pentecoste> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <https://archive.org/stream/lacomposizionede00buseuoft/#page/n5/mode/2up> .
+
+############
+
+<cited-entity-005> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/005/AM/inni-sacri/ilnomedimaria/5#in-29> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/005/AM/inni-sacri/ilnomedimaria> ; ;
+      dcterms:title "Inni sacri, Il nome di Maria";
+      dc:creator <person/AM> .
+
+<pbn/expression/005/AM/inni-sacri/ilnomedimaria> ecrm:R3i_realises <pbn/work/005/AM/inni-sacri/ilnomedimaria> .
+
+<pbn/work/005/AM/inni-sacri/ilnomedimaria> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <https://archive.org/details/operevarie00manzuoft> .
+
+###### Cited entity 006 logically follows cited entity 005 ######
+
+<cited-entity-006> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/006/AM/inni-sacri/ilnomedimaria/30-84> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/005/AM/inni-sacri/ilnomedimaria> ; ;
+      dcterms:title "Inni sacri, Il nome di Maria";
+      dc:creator <person/AM> .
+
+<pbn/expression/005/AM/inni-sacri/ilnomedimaria> ecrm:R3i_realises <pbn/work/005/AM/inni-sacri/ilnomedimaria> .
+
+<pbn/work/005/AM/inni-sacri/ilnomedimaria> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <https://archive.org/details/operevarie00manzuoft> .
+
+############
+
+<cited-entity-007> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/007/TLC/dererumnatura/1/38-40> ;
+      rdfs:seeAlso <http://data.perseus.org/citations/urn:cts:latinLit:phi0550.phi001.perseus-lat1:1.38-1.40> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/007/TLC/dererumnatura> ;
+      dcterms:title "1, 38-40";
+      dc:creator <person/TLC> .
+
+<pbn/expression/007/TLC/dererumnatura> efrbroo:R3i_realises <pbn/work/007/TLC/dererumnatura> .
+
+<pbn/work/007/TLC/dererumnatura> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <http://data.perseus.org/texts/urn:cts:latinLit:phi0550.phi001> .
+
+<http://data.perseus.org/citations/urn:cts:latinLit:phi0550.phi001.perseus-lat1:1.38-1.40> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <http://data.perseus.org/citations/urn:cts:latinLit:phi0550.phi001.perseus-lat1> ;
+      efrbroo:R3_is_realised_in <http://data.perseus.org/texts/urn:cts:latinLit:phi0550.phi001> .
+
+############
+
+<cited-entity-008> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/008/DA/commedia/purgatorio/5/37-39> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/008/DA/commedia/purgatorio> ;
+      dcterms:title "Purgatorio 5, 37-39";
+      dc:creator <person/DA> .
+
+<pbn/expression/008/DA/commedia/purgatorio> efrbroo:R3i_realises <pbn/work/008/DA/commedia/purgatorio> .
+
+<pbn/work/008/DA/commedia/purgatorio> a efrbroo:F1_Work ;
+      frbr:relatedEndeavour <https://ia802706.us.archive.org/11/items/ladivinacommedia00998gut/2ddcd09.txt> .
+
+############
+
+<cited-entity-009> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/009/DA/commedia/inferno/20/28> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/009/DA/commedia/inferno> ;
+      dcterms:title "Inferno 20, 28";
+      dc:creator <person/DA> .
+
+<pbn/expression/009/DA/commedia/inferno> efrbroo:R3i_realises <pbn/work/009/DA/commedia/inferno> .
+
+<pbn/work/009/DA/commedia/inferno> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <https://ia902205.us.archive.org/21/items/ladivinacommedia00997gut/1ddcd09.txt> .
+
+############
+
+<cited-entity-010> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/010/DA/commedia/inferno/20/46-51> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/009/DA/commedia/inferno> ;
+      dcterms:title "Inferno 20, 46-51";
+      dc:creator <person/DA> .
+
+<pbn/expression/009/DA/commedia/inferno> efrbroo:R3i_realises <pbn/work/009/DA/commedia/inferno> .
+
+<pbn/work/009/DA/commedia/inferno> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <https://ia902205.us.archive.org/21/items/ladivinacommedia00997gut/1ddcd09.txt> .
+
+############
+
+<cited-entity-011> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <pbn/expression_fragment/011/DA/commedia/inferno/20/75-130> ;
+      efrbroo:R15i_is_fragment_of <pbn/expression/009/DA/commedia/inferno> ;
+      dcterms:title "Inferno 20, 75-130";
+      dc:creator <person/DA> .
+
+<pbn/expression/009/DA/commedia/inferno> efrbroo:R3i_realises <pbn/work/009/DA/commedia/inferno> .
+
+<pbn/work/009/DA/commedia/inferno> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <https://ia902205.us.archive.org/21/items/ladivinacommedia00997gut/1ddcd09.txt> .
+
+############
+
+<cited-entity-012> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "King Lear at. I sc. I";
+      dc:creator <person/WS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+############
+
+<cited-entity-013> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "King Lear at. I sc. IV";
+      dc:creator <person/WS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-014> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "epodi 15, 1";
+      dc:creator <person/QOF> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-015> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Sat. 1, 10, 9 sg.";
+      dc:creator <person/QOF> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-016> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Aen. 2, 8 sg.";
+      dc:creator <person/PVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-017> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Aen. 7, 5-9";
+      dc:creator <person/PVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-018> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "King Lear at. I sc. IV";
+      dc:creator <person/WS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-019> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "La genesi del Doctor Faustus";
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-020> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Inni sacri, Il nome di Maria";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-021> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Inni sacri, Il nome di Maria";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-022> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "1, 38-40";
+      dc:creator <person/TLC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-023> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Sat. 6, 223";
+      dc:creator <person/DGG> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-024> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "ann. 5 Vahlen";
+      dc:creator <person/QE> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-025> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "ann. 159 Valhen";
+      dc:creator <person/QE> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-026> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "6, 357 sg.";
+      dc:creator <person/TLC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-027> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "ars 70 sg.";
+      dc:creator <person/QOF> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-028> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Palliatae V. 9";
+      dc:creator <person/GN> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-029> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Aen. 7, 8 sg.";
+      dc:creator <person/PVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-030> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Purgatorio, 1, 115-117";
+      dc:creator <person/DA> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-031> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Palliatae 108-110";
+      dc:creator <person/GN> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-032> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "ann. 5 Vahlen";
+      dc:creator <person/QE> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-033> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Lettere a Lucilio, 14, 89";
+      dc:creator <person/LAS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-034> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-035> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Canzoniere 272, 1-2";
+      dc:creator <person/FP> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-036> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "La filosofia di Nietzsche alla luce della nostra
+                     esperienza";
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-037> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "La filosofia di Nietzsche alla luce della nostra
+                     esperienza";
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-038> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Canzoniere, 274";
+      dc:creator <person/FP> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-039> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Canzoniere, 274";
+      dc:creator <person/FP> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-040> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "luogo citato";
+      dc:creator <person/GF> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-041> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Memorie di Adriano";
+      dc:creator <person/MY> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-042> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Memorie di Adriano";
+      dc:creator <person/MY> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-043> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Inni sacri, Il nome di Maria";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-044> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title " 1, 38, 40";
+      dc:creator <person/MY> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-045> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Tusc.Quaest., II, 1";
+      dc:creator <person/MTC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-046> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Luogo citato";
+      dc:creator <person/MTC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-047> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Caes. 99, 1";
+      dc:creator <person/OA> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-048> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-049> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "De Off., I, 11";
+      dc:creator <person/MTC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-050> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Africa, VI";
+      dc:creator <person/FP> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-051> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Canzoniere 344, 1-2";
+      dc:creator <person/FP> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-052> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Africa, VI";
+      dc:creator <person/FP> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-053> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "luogo citato";
+      dc:creator <person/FP> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-054> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-055> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-056> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-057> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-058> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-059> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-060> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Luogo citato";
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-061> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-062> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Disordine e dolore precoce";
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-063> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "luogo citato";
+      dc:creator <person/TC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-064> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-065> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-066> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-067> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-068> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-069> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-070> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Amleto";
+      dc:creator <person/WS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-071> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "La montagna incantata, cap.V";
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-072> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-073> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "La montagna incantata, cap.V";
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-074> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Sonetti, 15";
+      dc:creator <person/WS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-075> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Eneide, VII, 5-9";
+      dc:creator <person/PVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-076> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Purgatorio, 1, 115-118 sg.";
+      dc:creator <person/DA> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-077> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Aen. 7, 5-9";
+      dc:creator <person/PVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-078> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Hamlet, III 2";
+      dc:creator <person/WS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-079> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-080> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Saggi. Schopenhauer, Nietzche, Freud, trad. di
+                        ";
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-081> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Storia d'Italia dal 1871 al 1915";
+      dc:creator <person/BC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-082> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-083> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "ann. 1, 11";
+      dc:creator <person/CT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-084> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "inst. 6, 3, 108";
+      dc:creator <person/MFQ> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-085> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Caes. 99, 1";
+      dc:creator <person/GST> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-086> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "epist. I, 4";
+      dc:creator <person/LAS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-087> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Epigrammi, V 34, Per la morte della sua
+                     bambina";
+      dc:creator <person/MVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-088> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Funere mersit";
+      dc:creator <person/GC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-089> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "II 90";
+      dc:creator <person/MVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-090> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "I 4";
+      dc:creator <person/MVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-091> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Gli Annali, versione di ";
+      dc:creator <person/CT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-092> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-093> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Mémoires d'Hadrien";
+      dc:creator <person/MY> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-094> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-095> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Mémoires d'Hadrien";
+      dc:creator <person/MY> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-096> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Libro I, 88";
+      dc:creator <person/MVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-097> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-098> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Libro I, 88";
+      dc:creator <person/MVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-099> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-100> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "clem. 1, 1, 3";
+      dc:creator <person/LAS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-101> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "clem. 1, 1, 7";
+      dc:creator <person/LAS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-102> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-103> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "clem. 1, 1, 8";
+      dc:creator <person/LAS> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-104> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Paneg.";
+      dc:creator <person/PG> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-105> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "L'ancien régime et la
+                  Révolution";
+      dc:creator <person/ADT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-106> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-107> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Purg.";
+      dc:creator <person/DA> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-108> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-109> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-110> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-111> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Odi Barbare, Alla stazione in una mattina
+                     d'autunno, vv 1-24";
+      dc:creator <person/GC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-112> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Rime Nuove, Funere mersit
+                  acerbo";
+      dc:creator <person/GC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-113> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Aen. 6, 429 = 11, 28";
+      dc:creator <person/PVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-114> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Odi Barbare, Alla stazione in una mattina
+                     d'autunno, vv. 25-60";
+      dc:creator <person/GC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-115> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-116> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "La Monaca di Monza";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-117> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-118> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-119> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-120> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-121> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-122> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-123> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-124> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-125> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-126> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-127> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-128> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Historiarum patriae, trad. di T.
+                     Dandolo";
+      dc:creator <person/GR> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-129> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Madame Bovary";
+      dc:creator <person/GF> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-130> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Madame Bovary";
+      dc:creator <person/GF> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-131> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-132> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Hymnus ad Virginem Dei Matrem";
+      dc:creator <person/GP> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-133> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "A proposito di alcuni giudizi su Alessandro
+                     Manzoni";
+      dc:creator <person/GC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-134> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Inni Sacri, Il nome di Maria, vv.33 -
+                     41";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-135> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Storia della Rivoluzione
+                  Francese";
+      dc:creator <person/AT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-136> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-137> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Scienza della logica";
+      dc:creator <person/FH> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-138> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Annali, XV 44";
+      dc:creator <person/CT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-139> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Corriere della Sera";
+      dc:creator <person/SR> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-140> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Le rouge et le noir, Corriere della
+                     Sera";
+      dc:creator <person/GMCC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-141> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-142> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-143> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-144> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/GB> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-145> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-146> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Giuseppe e i suoi fratelli, intr. di ";
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-147> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Frammenti, Ognissanti";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-148> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Frammenti, Ognissanti";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-149> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Rime, CVI";
+      dc:creator <person/TT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-150> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "lettera del 46 a.C.";
+      dc:creator <person/MTC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-151> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "lettera a De Sarlo";
+      dc:creator <person/BC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-152> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "lettera ad Alessandro D'Ancona, in morte della
+                     figlia, 1899";
+      dc:creator <person/BC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-153> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Mirra, atto I";
+      dc:creator <person/VA> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-154> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Ars poetica";
+      dc:creator <person/QOF> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-155> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-156> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Ars poetica";
+      dc:creator <person/QOF> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-157> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "I Promessi Sposi";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-158> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-159> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Storie e leggende napoletane";
+      dc:creator <person/BC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-160> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Annali XV, 42, 43";
+      dc:creator <person/CT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-161> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-162> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-163> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-164> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-165> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Inni
+                           Sacri, Il nome di Maria";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-166> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Cantico dei Cantici";
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-167> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Vulgata";
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-168> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Inni
+                           Sacri, Il nome di Maria";
+      dc:creator <person/AM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-169> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "De Rerum
+                        Natura";
+      dc:creator <person/TLC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-170> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Anna Karenina";
+      dc:creator <person/LT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-171> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "La repubblica di Weimar e gli
+                     intellettuali";
+      dc:creator <person/GCR> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-172> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Paradiso, V";
+      dc:creator <person/DA> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-173> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/TM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-174> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Iustiniani Institutionem libri,
+                     Tit. VII";
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-175> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-176> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Iustiniani Institutionem libri,
+                     Tit. VII";
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-177> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-178> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Annali I, VII";
+      dc:creator <person/CT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-179> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Eneide,I";
+      dc:creator <person/PVM> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-180> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Annali I, XXVIII";
+      dc:creator <person/CT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-181> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Annali I, XXVIII";
+      dc:creator <person/CT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-182> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-183> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Le Storie, libro I";
+      dc:creator <person/CT> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-184> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title " Carmina, II 3";
+      dc:creator <person/QOF> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-185> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Sonetti, Er caffettiere
+                  filosofo";
+      dc:creator <person/GGB> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-186> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-187> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-188> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-189> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title  "?" ;
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-190> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "La rôtisserie de la reine
+                     Pédaugne";
+      dc:creator <person/?> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-191> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Rime";
+      dc:creator <person/FP> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-192> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Epigrammi";
+      dc:creator <person/GG> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-193> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Storie e leggende napoletane";
+      dc:creator <person/BC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-194> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Donna genovese";
+      dc:creator <person/DC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-195> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Buenos Aires";
+      dc:creator <person/DC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+
+<cited-entity-196> a efrbroo:F23_Expression_Fragment;
+      owl:sameAs <new fragment URI> ;
+      rdfs:seeAlso <URI-Online Ed fragm> ;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont> ;
+      dcterms:title "Poesie, VIII";
+      dc:creator <person/GVC> .
+
+<URI-Self-Cont> efrbroo:R3i_realises <URI-Work ediz buf> .
+
+<URI-Work ediz buf> a efrbroo:F1_Work;
+      frbr:relatedEndeavour <URI-Work ediz dig> .
+
+<URI-Online Ed fragm> a efrbroo:F23_Expression_Fragment;
+      efrbroo:R15i_is_fragment_of <URI-Self-Cont Ed Online> ;
+      efrbroo:R3_is_realised_in <URI-Work ediz dig> .
+

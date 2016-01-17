@@ -1,0 +1,26 @@
+#10. How many quotations are there for each language?
+
+PREFIX cito: <http://purl.org/spar/cito/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/> 
+PREFIX prov: <http://www.w3.org/ns/prov#> 
+PREFIX ecrm: <http://erlangen-crm.org/current/> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX saws: <http://purl.org/saws/ontology/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX frbr: <http://purl.org/vocab/frbr/core#> 
+PREFIX noto: <http://purl.org/net/noto/>
+PREFIX lang: <http://id.loc.gov/vocabulary/iso639-2/>
+BASE <http://www.bufaliniquaderno.it/resource/>
+
+SELECT DISTINCT ?lang (COUNT(?quotation) AS ?number_of_quotations)
+WHERE{
+?quotation a noto:Quotation ;
+ecrm:P72_has_language ?lang .
+}
+
+GROUP BY ?lang
+

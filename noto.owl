@@ -1,0 +1,714 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY noto "http://purl.org/net/noto#" >
+    <!ENTITY dcterms "http://purl.org/dc/terms/" >
+    <!ENTITY prov "http://www.w3.org/ns/prov#" >
+    <!ENTITY cito "http://purl.org/spar/cito/" >
+    <!ENTITY saws "http://purl.org/saws/ontology#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY frbr "http://purl.org/vocab/frbr/core#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.org/net/noto#"
+     xml:base="http://purl.org/net/noto"
+     xmlns:noto="http://purl.org/net/noto#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:frbr="http://purl.org/vocab/frbr/core#"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:saws="http://purl.org/saws/ontology#"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://purl.org/net/noto">
+        <dc:date>2015-08-01</dc:date>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dc:creator>Francesca Giovannetti</dc:creator>
+        <rdfs:comment xml:lang="en">NotO is an ontology which aims to describe the personal notebook of Paolo Bufalini. 
+
+From 1981 to 1991, Bufalini kept a hand-written notebook – which he generically entitled Appunti (“Notes”) – in which significant moments of his social and intellectual life are recorded in form of fragments distributed throughout 145 pages and 2 loose sheets. Some of these are excerpts from literary works accompanied by comments, other are narrations of events, personal notes and translations. 
+The quoted passages come especially from Latin and Italian classics. Among the authors cited in the notebook are Dante, Manzoni, Petrarch, Carducci and Vergil, Horace, Tacitus, Cicero, Ennius and Martial. Also, the notebook features citations of European literature, such as the works of Flaubert, Hegel, Shakespeare, Mann, and Yourcenar, often quoted in Italian translation. 
+
+NotO is intended for being used in combination with the TEI encoding of the notebook. As such, the ontological and TEI entities are mapped to each other. 
+The primary focus of NotO is the representation of the implicit relationships that occur among the textual fragments embedded within the notebook, as well as the relationships between such fragments and the source texts from which the fragments have been excerpted. 
+As it extends the CRM standard, NotO may be reused and/or extended to represent other fragmentary notebooks and diaries feature citations that have been selected and commented by the scribe. 
+
+</rdfs:comment>
+        <dc:title xml:lang="en">The Notebook Ontology (NotO)</dc:title>
+        <owl:imports rdf:resource="http://erlangen-crm.org/efrbroo/"/>
+        <owl:versionIRI rdf:resource="http://purl.org/net/noto"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator">
+        <rdfs:label xml:lang="en">Creator</rdfs:label>
+        <prov:definition xml:lang="en">An entity primarily responsible for making the resource.
+</prov:definition>
+        <rdfs:comment xml:lang="en">Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="&dc;date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="&dc;title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="&dcterms;description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="&dcterms;hasVersion"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="&dcterms;issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="&dcterms;modified"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#category -->
+
+    <owl:AnnotationProperty rdf:about="&prov;category"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#component -->
+
+    <owl:AnnotationProperty rdf:about="&prov;component"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#definition -->
+
+    <owl:AnnotationProperty rdf:about="&prov;definition"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#inverse -->
+
+    <owl:AnnotationProperty rdf:about="&prov;inverse"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedForm -->
+
+    <owl:AnnotationProperty rdf:about="&prov;qualifiedForm"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="&xsd;date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://erlangen-crm.org/current/P130_shows_features_of -->
+
+    <rdf:Description rdf:about="http://erlangen-crm.org/current/P130_shows_features_of">
+        <rdfs:subPropertyOf rdf:resource="&saws;isRelatedTo"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://erlangen-crm.org/current/P4_has_time-span -->
+
+    <rdf:Description rdf:about="http://erlangen-crm.org/current/P4_has_time-span">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:ObjectProperty rdf:about="&dc;creator">
+        <rdfs:label xml:lang="en">Creator</rdfs:label>
+        <prov:definition xml:lang="en">An entity primarily responsible for making the resource.
+</prov:definition>
+        <rdfs:comment xml:lang="en">Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.</rdfs:comment>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/current/E21_Person"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/noto/hasComment -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/noto/hasComment">
+        <rdfs:domain rdf:resource="http://erlangen-crm.org/efrbroo/F23_Expression_Fragment"/>
+        <rdfs:range rdf:resource="http://purl.org/net/noto/Comment"/>
+        <rdfs:subPropertyOf rdf:resource="&saws;isRelatedTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/noto/isCommentOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/noto/isCommentOf">
+        <owl:inverseOf rdf:resource="http://purl.org/net/noto/hasComment"/>
+        <rdfs:subPropertyOf rdf:resource="&saws;isRelatedTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/noto/isQuotedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/noto/isQuotedBy">
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <owl:inverseOf rdf:resource="http://purl.org/net/noto/quotes"/>
+        <rdfs:subPropertyOf rdf:resource="&cito;isCitedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/noto/logicallyFollows -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/noto/logicallyFollows">
+        <owl:inverseOf rdf:resource="http://purl.org/net/noto/logicallyPrecedes"/>
+        <rdfs:subPropertyOf rdf:resource="&saws;isRelatedTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/noto/logicallyPrecedes -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/noto/logicallyPrecedes">
+        <rdfs:comment>This property puts in sequential relation two or more fragments that are separated by the physical page boundaries of the notebook, but form a logical continuum.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://erlangen-crm.org/efrbroo/F23_Expression_Fragment"/>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/efrbroo/F23_Expression_Fragment"/>
+        <rdfs:subPropertyOf rdf:resource="&saws;isRelatedTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/noto/quotes -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/noto/quotes">
+        <rdfs:label xml:lang="en">quotes</rdfs:label>
+        <rdfs:comment xml:lang="en">This property specialises the property cito:cites. </rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&cito;cites"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/saws/ontology#hasWritten -->
+
+    <owl:ObjectProperty rdf:about="&saws;hasWritten">
+        <rdfs:comment xml:lang="en">In SAWS: A Person has written (or has transcribed) a LinguisticObject.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/saws/ontology#isAttributedAuthorOf -->
+
+    <owl:ObjectProperty rdf:about="&saws;isAttributedAuthorOf">
+        <rdfs:label xml:lang="en">is attributed author of</rdfs:label>
+        <rdfs:comment xml:lang="en">In SAWS: An author has been attributed as the author of this LinguisticObject (any Linguistic Object except Edition)</rdfs:comment>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/current/E33_Linguistic_Object"/>
+        <rdfs:domain rdf:resource="&saws;AttributedAuthor"/>
+        <rdfs:subPropertyOf rdf:resource="&saws;hasWritten"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/saws/ontology#isAttributedToAuthor -->
+
+    <owl:ObjectProperty rdf:about="&saws;isAttributedToAuthor">
+        <rdfs:label xml:lang="en">is attributed to author</rdfs:label>
+        <rdfs:comment xml:lang="en">A LinguisticObject (except Edition) is attributed to this AttributedAuthor</rdfs:comment>
+        <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E33_Linguistic_Object"/>
+        <rdfs:range rdf:resource="&saws;AttributedAuthor"/>
+        <owl:inverseOf rdf:resource="&saws;isAttributedAuthorOf"/>
+        <rdfs:subPropertyOf rdf:resource="&saws;isWrittenBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/saws/ontology#isRelatedTo -->
+
+    <owl:ObjectProperty rdf:about="&saws;isRelatedTo">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label xml:lang="en">is related to</rdfs:label>
+        <rdfs:comment xml:lang="en">Two things are related in some way. This relation may be used where the details of the link are to be refined at a later date, or where some relation is seen but the annotater cannot be more specific than to indicate that this relationship exists.</rdfs:comment>
+        <owl:propertyDisjointWith rdf:resource="&saws;isUnrelatedTo"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+        <rdfs:range rdf:resource="&owl;Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/saws/ontology#isUnrelatedTo -->
+
+    <owl:ObjectProperty rdf:about="&saws;isUnrelatedTo"/>
+    
+
+
+    <!-- http://purl.org/saws/ontology#isWrittenBy -->
+
+    <owl:ObjectProperty rdf:about="&saws;isWrittenBy"/>
+    
+
+
+    <!-- http://purl.org/saws/ontology#physicalLocationOf -->
+
+    <owl:ObjectProperty rdf:about="&saws;physicalLocationOf">
+        <rdfs:label xml:lang="en">physical location of</rdfs:label>
+        <rdfs:comment xml:lang="en">This lets you describe the physical location of the LinguisticObject, e.g. a particular piece of text, or Marginalia, by recording the Locus that the notes are physically written on in a Material. You can describe the Locus (e.g. folio number, or position on the page) in free text, in as much detail as required, if there is no formal way to describe the location of the text/marginalia] 
+
+NB Use this relation if you are talking about the physical location for an abstract linguistic object. Use isLocationOf if you are talking about the physical location of a physically-existing object.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">isLocationOf</rdfs:seeAlso>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/current/E33_Linguistic_Object"/>
+        <rdfs:domain rdf:resource="&saws;Locus"/>
+        <rdfs:subPropertyOf rdf:resource="&saws;isRelatedTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/saws/ontology#physicallyLocatedAt -->
+
+    <owl:ObjectProperty rdf:about="&saws;physicallyLocatedAt">
+        <rdfs:comment xml:lang="en">This lets you describe the physical location of the LinguisticObject, e.g. a particular piece of text, or Marginalia, by recording the Locus that the notes are physically written on in a Material. You can describe the Locus (e.g. folio number, or position on the page) in free text, in as much detail as required, if there is no formal way to describe the location of the text/marginalia
+
+NB Use this relation if you are talking about an abstract linguistic object which is to be found at a particular locus. Use isLocatedAt if you are talking about a physically-existing object being located at a physical place.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">isLocatedAt</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">physically located at</rdfs:comment>
+        <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E33_Linguistic_Object"/>
+        <rdfs:range rdf:resource="&saws;Locus"/>
+        <rdfs:subPropertyOf rdf:resource="&saws;isRelatedTo"/>
+        <owl:inverseOf rdf:resource="&saws;physicalLocationOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/spar/cito/cites -->
+
+    <owl:ObjectProperty rdf:about="&cito;cites">
+        <rdfs:label xml:lang="en">cites</rdfs:label>
+        <rdfs:comment xml:lang="en">The citing entity cites the cited entity, either directly and explicitly (as in the reference list of a journal article), indirectly (e.g. by citing a more recent paper by the same group on the same topic), or implicitly (e.g. as in artistic quotations or parodies, or in cases of plagiarism).</rdfs:comment>
+        <owl:inverseOf rdf:resource="&cito;isCitedBy"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/swan/2.0/discourse-relationships/refersTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/spar/cito/hasCitationCharacterization -->
+
+    <owl:ObjectProperty rdf:about="&cito;hasCitationCharacterization">
+        <rdfs:label xml:lang="en">has citation characterization</rdfs:label>
+        <rdfs:comment xml:lang="en">A property that links a cito:CitationAct to its characterization made by using a CiTO citation characterization property such as cito:extends.
+
+This usage involved OWL2 punning, whenby a CiTO object property, such as the aforementioned cito:extends, is used as the object of an OWL assertion:
+
+     :thisCitation cito:hasCitationCharacterization cito:extends .
+
+In such cases of OWL punning, the CiTO object properties are simultaneously considered both as normal object properties and also as proper named individuals of the class owl:Thing.
+</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/spar/cito/hasCitedEntity -->
+
+    <owl:ObjectProperty rdf:about="&cito;hasCitedEntity">
+        <rdfs:label xml:lang="en">has cited entity</rdfs:label>
+        <rdfs:comment xml:lang="en">A property that relates a citation act to the entity that is the target of that citation.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/spar/cito/hasCitingEntity -->
+
+    <owl:ObjectProperty rdf:about="&cito;hasCitingEntity">
+        <rdfs:label xml:lang="en">has citing entity</rdfs:label>
+        <rdfs:comment xml:lang="en">The citation act relates to the entity containing that citation.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/spar/cito/isCitedBy -->
+
+    <owl:ObjectProperty rdf:about="&cito;isCitedBy">
+        <rdfs:label xml:lang="en">is cited by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/swan/2.0/discourse-relationships/refersTo -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/swan/2.0/discourse-relationships/refersTo"/>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#relatedEndeavour -->
+
+    <owl:ObjectProperty rdf:about="&frbr;relatedEndeavour"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#hadPrimarySource -->
+
+    <owl:ObjectProperty rdf:about="&prov;hadPrimarySource">
+        <rdfs:label>hadPrimarySource</rdfs:label>
+        <prov:inverse>wasPrimarySourceOf</prov:inverse>
+        <prov:category>expanded</prov:category>
+        <prov:component>derivations</prov:component>
+        <prov:qualifiedForm rdf:resource="&prov;PrimarySource"/>
+        <prov:qualifiedForm rdf:resource="&prov;qualifiedPrimarySource"/>
+        <rdfs:subPropertyOf rdf:resource="&prov;wasDerivedFrom"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <rdfs:comment>hadPrimarySource property is a particular case of wasDerivedFrom (see http://www.w3.org/TR/prov-dm/#term-original-source) that aims to give credit to the source that originated some information.</rdfs:comment>
+        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
+        <owl:annotatedSource rdf:resource="&prov;hadPrimarySource"/>
+        <owl:annotatedTarget rdf:resource="&prov;wasDerivedFrom"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasAttributedTo -->
+
+    <owl:ObjectProperty rdf:about="&prov;wasAttributedTo">
+        <rdfs:label>wasAttributedTo</rdfs:label>
+        <prov:component>agents-responsibility</prov:component>
+        <prov:definition xml:lang="en">Attribution is the ascribing of an entity to an agent.</prov:definition>
+        <rdfs:comment xml:lang="en">Attribution is the ascribing of an entity to an agent.</rdfs:comment>
+        <prov:category>starting-point</prov:category>
+        <prov:inverse>contributed</prov:inverse>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/efrbroo/F10_Person"/>
+        <prov:qualifiedForm rdf:resource="&prov;Attribution"/>
+        <prov:qualifiedForm rdf:resource="&prov;qualifiedAttribution"/>
+        <rdfs:subPropertyOf rdf:resource="&prov;wasInfluencedBy"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <rdfs:comment>Attribution is a particular case of trace (see http://www.w3.org/TR/prov-dm/#concept-trace), in the sense that it links an entity to the agent that ascribed it.</rdfs:comment>
+        <prov:definition>IF wasAttributedTo(e2,ag1,aAttr) holds, THEN wasInfluencedBy(e2,ag1) also holds. </prov:definition>
+        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
+        <owl:annotatedSource rdf:resource="&prov;wasAttributedTo"/>
+        <owl:annotatedTarget rdf:resource="&prov;wasInfluencedBy"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="&prov;wasDerivedFrom"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasInfluencedBy -->
+
+    <owl:ObjectProperty rdf:about="&prov;wasInfluencedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:DatatypeProperty rdf:about="&dcterms;date">
+        <rdfs:label xml:lang="en">Date</rdfs:label>
+        <dcterms:modified rdf:datatype="&xsd;date">2008-01-14</dcterms:modified>
+        <dcterms:issued rdf:datatype="&xsd;date">2008-01-14</dcterms:issued>
+        <rdfs:comment xml:lang="en">A point or period of time associated with an event in the lifecycle of the resource.</rdfs:comment>
+        <dcterms:description xml:lang="en">Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</dcterms:description>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#dateT-001"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:DatatypeProperty rdf:about="&dcterms;title">
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <dcterms:issued rdf:datatype="&xsd;date">2008-01-14</dcterms:issued>
+        <dcterms:modified rdf:datatype="&xsd;date">2010-10-11</dcterms:modified>
+        <rdfs:comment xml:lang="en">A name given to the resource.</rdfs:comment>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#titleT-002"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/noto/Comment -->
+
+    <owl:Class rdf:about="http://purl.org/net/noto/Comment">
+        <rdfs:label xml:lang="en">Comment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E33_Linguistic_Object"/>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F23_Expression_Fragment"/>
+        <owl:disjointWith rdf:resource="http://purl.org/net/noto/Quotation"/>
+        <owl:disjointWith rdf:resource="http://purl.org/net/noto/Translation"/>
+        <rdfs:comment xml:lang="en">Comment on a part of the material (usually a quotation), by the manuscript scribe. 
+It usually corresponds to a TEI element &lt;div&gt; characterized by the attribute @type with value &quot;comment&quot;. 
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/noto/NotebookOpening -->
+
+    <owl:Class rdf:about="http://purl.org/net/noto/NotebookOpening">
+        <rdfs:label xml:lang="en">Notebook Opening</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E84_Information_Carrier"/>
+        <rdfs:comment xml:lang="en">A Notebook Opening is a physical carrier composed by two physical facing pages and is formed by two instances of noto:NotebookPage 
+
+In some cases, the opening, rather than the single page, constitutes the logical unit of writing (e.g. when the opening is considered as a single writing surface by the scribe and the text is spread onto both pages, rather then respecting the boundaries of the left/right page). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/noto/NotebookPage -->
+
+    <owl:Class rdf:about="http://purl.org/net/noto/NotebookPage">
+        <rdfs:label xml:lang="en">Notebook Page</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E84_Information_Carrier"/>
+        <rdfs:comment xml:lang="en">A Notebook Page is a physical carrier that carries the text range going from a page break (embodied by the empty element &lt;pb&gt; in the TEI document) to the page break that follows. 
+NB. A Notebook Page forms part of a Notebook Opening. 
+
+
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/noto/PublicationDate -->
+
+    <owl:Class rdf:about="http://purl.org/net/noto/PublicationDate">
+        <rdfs:label xml:lang="en">Publication Date</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E52_Time-Span"/>
+        <rdfs:comment xml:lang="en">Date of publication of an edition.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/noto/Quotation -->
+
+    <owl:Class rdf:about="http://purl.org/net/noto/Quotation">
+        <rdfs:label xml:lang="en">Quotation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E33_Linguistic_Object"/>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F23_Expression_Fragment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://erlangen-crm.org/current/P72_has_language"/>
+                <owl:onClass rdf:resource="http://erlangen-crm.org/current/E56_Language"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Part of the material that quotes a source text (even if loosely), usually accompanied by a comment and/or a translation. 
+It usually corresponds to a TEI element &lt;div&gt; characterized by the attribute @type with value &quot;quotation&quot;. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/noto/Translation -->
+
+    <owl:Class rdf:about="http://purl.org/net/noto/Translation">
+        <rdfs:label xml:lang="en">Translation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E33_Linguistic_Object"/>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F23_Expression_Fragment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://erlangen-crm.org/current/P72_has_language"/>
+                <owl:onClass rdf:resource="http://erlangen-crm.org/current/E56_Language"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Translation of a part of the material (usually a quotation). A translation may be carried out by the scribe himself, or it may be authored by a different translator. 
+It usually corresponds to a TEI element &lt;div&gt; characterized by the attribute @type with value &quot;translation&quot;. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/saws/ontology#AttributedAuthor -->
+
+    <owl:Class rdf:about="&saws;AttributedAuthor">
+        <rdfs:label xml:lang="en">attributed author</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E21_Person"/>
+        <rdfs:comment xml:lang="en">In NotO, an attributed author is the person to whom original authorship of a linguistic object or expression fragment is attributed by Paolo Bufalini.</rdfs:comment>
+        <rdfs:comment xml:lang="en">In SAWS: Person to whom original authorship of a linguistic object is attributed, as the source of that linguistic object</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/saws/ontology#Locus -->
+
+    <owl:Class rdf:about="&saws;Locus">
+        <rdfs:label xml:lang="en">Locus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <rdfs:comment xml:lang="en">In SAWS: A physical location within a physical manuscript.
+
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/spar/cito/CitationAct -->
+
+    <owl:Class rdf:about="&cito;CitationAct">
+        <rdfs:label xml:lang="en">Citation Act</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&cito;hasCitationCharacterization"/>
+                        <owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&cito;hasCitedEntity"/>
+                        <owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&cito;hasCitingEntity"/>
+                        <owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&prov;hadPrimarySource"/>
+                        <owl:onClass rdf:resource="http://erlangen-crm.org/efrbroo/F4_Manifestation_Singleton"/>
+                        <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&prov;wasAttributedTo"/>
+                        <owl:onClass rdf:resource="http://erlangen-crm.org/current/E21_Person"/>
+                        <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F28_Expression_Creation"/>
+        <rdfs:comment xml:lang="en">A citation act is a performative act of making a citation from a citing entity to a cited entity, typically instantiated by the inclusion of a bibliographic reference or a data reference in the reference list of the citing entity.
+
+This CiTO class and its accompanying object properties cito:hasCitingEntity, cito:hasCitationCharacterization and cito:hasCitedEntity can be employed to reify direct citation act statements made using the CiTO citation object property cito:cites or one of its sub-properties. For example, the following RDF statement:
+
+     :paperA cito:extends :paperB .
+
+can be alternatively described as follows:
+
+     :thisCitation a cito:CitationAct ; 
+          cito:hasCitingEntity :paperA ;
+          cito:hasCitationCharacterization cito:extends ;
+          cito:hasCitedEntity :paperB .
+
+This usage involved OWL2 punning, whenby a CiTO object property, such as the aforementioned cito:extends, is used as the object of the OWL assertion
+
+     :thisCitation cito:hasCitationCharacterization cito:extends .
+
+Using such OWL2 punning (described at http://www.w3.org/TR/2009/WD-owl2-new-features-20090611/#F12:_Punning), the CiTO object property is considered as a proper named individual of the class owl:Thing.
+
+Such reification of citation acts can be very useful, since it permits one to combine these CiTO properties with other vocabularies, or to handle situations in which none of the citation characterizations available in CiTO are applicable.  Such situations can be resolved by the creation of a user-defined citation characterization, for example by using the Open Annotation Data Model, as explained at http://semanticpublishing.wordpress.com/2013/07/03/extending-cito-for-open-annotations/.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

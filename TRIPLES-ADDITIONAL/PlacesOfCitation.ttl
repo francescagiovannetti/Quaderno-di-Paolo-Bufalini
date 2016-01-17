@@ -1,0 +1,44 @@
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix saws: <http://purl.org/saws/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix noto: <http://purl.org/net/noto/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@base <http://www.bufaliniquaderno.it/resource/> . 
+
+<citation-act-001> ecrm:P7_took_place_at <http://viaf.org/viaf/129224713> .
+
+<http://viaf.org/viaf/129224713> a ecrm:E53_Place ;
+      ecrm:P73i_is_identified_by <placename-001> .
+
+<placename-001> a ecrm:E44_Place_Appellation ;
+      rdfs:label "L'Havana" .
+
+<citation-act-013> ecrm:P7_took_place_at <placename-013> .
+
+<placename-013> a ecrm:E44_Place_Appellation ;
+      rdfs:label "Direzione P." .
+
+<citation-act-071> ecrm:P7_took_place_at <http://viaf.org/viaf/145348938> .
+
+<http://viaf.org/viaf/145348938> a ecrm:E53_Place ;
+      ecrm:P73i_is_identified_by <placename-071> .
+
+<placename-071> a ecrm:E44_Place_Appellation ;
+      rdfs:label "Roma" .
+
+<citation-act-185> ecrm:P7_took_place_at <http://viaf.org/viaf/145348938> .
+
+<http://viaf.org/viaf/145348938> a ecrm:E53_Place ;
+      ecrm:P73i_is_identified_by <placename-185> .
+
+<placename-185> a ecrm:E44_Place_Appellation ;
+      rdfs:label "Roma" .
+

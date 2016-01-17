@@ -1,0 +1,23 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh10320\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl360\slmult1\pardirnatural\qj
+
+\f0\fs24 \cf0 Project title: Combining TEI and Semantic Web Technologies to Annotate and Explore the Notebook of Paolo Bufalini (1915-2001)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl360\slmult1\pardirnatural
+\cf0 \
+Files composing the project:\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\sl360\slmult1\pardirnatural
+\ls1\ilvl0\cf0 {\listtext	1.	}bufaliniquaderno.xml = TEI document containing the the encoded text of the notebook.\
+{\listtext	2.	}notebook.xml = TEI customization for the TEI encoding of the notebook.\
+{\listtext	3.	}notebook.rnc = Relax NG Compact schema derived from the notebook.xml customization.\
+{\listtext	4.	}noto.owl (also available at http://purl.org/net/noto) = OWL ontology describing the notebook.\
+{\listtext	5.	}tei_to_noto.xsl = XSLT file which extracts the RDF triples from the TEI document.\
+{\listtext	6.	}bufaliniquaderno.ttl = Turtle file created through the XSLT transformation containing the notebook RDF dataset.\
+{\listtext	7.	}TRIPLES_ADDITIONAL = an additional folder containing Turtle files of the RDF triples which were not be automatically extracted from the TEI encoding (this separation has the purpose of clearly showing what I could extract automatically and what I could not). NB The manually-added dataset contains, for now, only few examples of the triples that should be added manually, although a skeleton for the entirety of the triples to be added has been created using XSLT. Such  a skeleton needs now to be \'93filled\'94 with information carefully selected by the modeler. \
+{\listtext	8.	}Folder SPARQL = folder containing 10 SPARQL queries aimed to the exploration of the notebook through Semantic Web technologies. \
+{\listtext	9.	}Folder GRAPHS = auxiliary folder containing the graphical representations of the noto.owl conceptual model, which are also included in the dissertation essay. These can be accessed from this folder for quick reference. \
+{\listtext	10.	}Folder FACSIMILE = folder containing two of the facsimiles of the notebook, aimed to allow a better understanding of the object of this study.}
